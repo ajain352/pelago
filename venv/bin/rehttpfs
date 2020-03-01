@@ -1,0 +1,12 @@
+#!/Users/ajain/www/projects/pelago/venv/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'htmllistparse==0.5.2','console_scripts','rehttpfs'
+__requires__ = 'htmllistparse==0.5.2'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('htmllistparse==0.5.2', 'console_scripts', 'rehttpfs')()
+    )

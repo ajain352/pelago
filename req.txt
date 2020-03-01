@@ -1,0 +1,8 @@
+Flask
+PyYAML
+requests
+Flask-MySQLdb
+wget
+htmllistparse
+Flask-SQLAlchemy
+python-dateutil
